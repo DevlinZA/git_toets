@@ -10,17 +10,20 @@ using System.Windows.Forms;
 
 namespace groep20_toets
 {
-    public partial class Form1 : Form
+    public partial class frmJaco : Form
     {
-        public Form1()
+        clMIN cmin = new clMIN();
+        public frmJaco()
         {
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            frmJaco fJaco = new groep20_toets.frmJaco();
-            fJaco.Show();
+            
+            int num = Convert.ToInt16(txt1.Text);
+            cmin.numGen(num);
+
         }
     }
 }
