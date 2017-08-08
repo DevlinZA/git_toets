@@ -16,5 +16,18 @@ namespace groep20_toets
         {
             InitializeComponent();
         }
+
+<<<<<<< HEAD
+        private void button2_Click(object sender, EventArgs e)
+        {
+            frmJaco fJaco = new groep20_toets.frmJaco();
+            fJaco.Show();
+=======
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form2 frm = new Form2();
+            frm.Show();
+>>>>>>> 4127dcf61abf0a209b3258e5041f53ba6198f5e0
+        }
     }
 }
