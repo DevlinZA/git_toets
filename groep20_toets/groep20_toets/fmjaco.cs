@@ -10,25 +10,20 @@ using System.Windows.Forms;
 
 namespace groep20_toets
 {
-    public partial class Form1 : Form
-    {
-        public Form1()
+    public partial class fmjaco : Form
+    { 
+        
+        public fmjaco()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form2 frm2 = new Form2();
-            frm2.Show();
-            MessageBox.Show("Release 1");
-            
-        }
+            classMIN cm = new classMIN();
+            int num = Convert.ToInt16(textBox1.Text);
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            fmjaco fJaco = new fmjaco();
-            fJaco.Show();
+            cm.numGen(num);
         }
     }
 }
