@@ -21,7 +21,7 @@ namespace groep20_toets
         {
             Form2 frm2 = new Form2();
             frm2.Show();
-            MessageBox.Show("Release 1");
+            MessageBox.Show("Release 2");
             
         }
 
