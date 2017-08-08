@@ -29,6 +29,7 @@ namespace groep20_toets
         {
             fmjaco fJaco = new fmjaco();
             fJaco.Show();
+            MessageBox.Show("hotfix1");
         }
     }
 }
